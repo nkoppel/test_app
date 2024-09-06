@@ -36,6 +36,7 @@ gem "bootsnap", require: false
 
 gem "rexml"
 gem "brakeman"
+gem "rspec"
 gem "rspec-rails"
 gem "rubocop"
 gem "yaml_db"
