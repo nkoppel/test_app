@@ -36,6 +36,8 @@ gem "bootsnap", require: false
 
 gem "rexml"
 gem "brakeman"
+gem "rspec-rails"
+gem "rubocop"
 gem "yaml_db"
 
 group :development, :test do
@@ -47,9 +49,6 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-
-  gem "rspec-rails"
-  gem "rubocop"
 end
 
 group :development do
